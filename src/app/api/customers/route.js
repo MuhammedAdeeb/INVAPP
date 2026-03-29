@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import connectDB from '@/lib/mongodb';
-import Customer from '@/models/Customer.js';
+import Customer from '@/models/Customer';
 
 
 // GET all customers
