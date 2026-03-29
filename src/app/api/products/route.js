@@ -1,6 +1,10 @@
 import { NextResponse } from 'next/server';
 import connectDB from '@/lib/mongodb';
+<<<<<<< HEAD
 import Product from '@/models/Product';
+=======
+import Product from '@/models/Product.js';
+>>>>>>> c8966dd (update)
 
 // GET all products
 export async function GET() {
